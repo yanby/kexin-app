@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['goMerchant',['$event']]]]]}}" class="logo" bindtap="__e"><image src="{{logo}}"></image></view>

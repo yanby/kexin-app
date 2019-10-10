@@ -1,0 +1,199 @@
+.history{
+	padding: 0 77upx;
+	.history-msg{
+		padding-top: 20upx;
+		.list-wrap{
+			width:555upx;
+			height:100upx;
+			margin: 0 auto;
+			display: flex;
+			padding: 20upx;
+			box-shadow: 0upx 0upx 8upx 6upx #f1f8ea;
+			.list-left{
+				.img{
+					width:120upx;
+					height:100upx;
+					margin-bottom: 10upx;
+					image{
+						width: 100%;
+						height: 100%;
+					}
+				}
+				
+			}
+			.list-center{
+				margin: 0 20upx 0 35upx;
+				.name{
+					font-size: 18upx;
+					padding-bottom:4upx;
+				}
+				.pici{
+					font-size: 14upx;
+					padding-bottom: 4upx;
+				}
+				.time{
+					font-size: 14upx;
+					color: #7D8787;
+				}
+				.txt{
+					font-size: 14upx;
+					padding-bottom: 2upx;
+				}
+			}
+			.list-xinyu{
+				width: 150upx;
+				margin-left: 20upx;
+				.xinyu-youji,.xinyu-lvse{
+					margin-top: 30upx;
+					view{
+						display: flex;
+						justify-content: space-around;
+						text{
+							display: inline-block;
+							width: 25upx;
+							height: 28upx;
+							background: url(../../static/images/yezi-youji.png) no-repeat;
+							background-size: 100% 100%;
+						}
+					}
+				}
+				.xinyu-lvse{
+					view{
+						text{
+							background: url(../../static/images/yezi-lvse.png) no-repeat;
+							background-size: 100% 100%;
+						}
+					}
+				}
+			}
+			.list-right{
+				margin-left: 40upx;
+				margin-top: 10upx;
+				.fenshu{
+					width:56upx;
+					height:56upx;
+					margin: 0 auto;
+					text-align: center;
+					line-height: 57upx;
+					border-radius: 50%;
+					font-size: 26upx;
+					color: #fff;
+					margin-bottom: 10upx;
+					text{
+						font-size: 16upx;
+						color: #fff;
+					}
+				}
+				.fenshu1{
+					background: #e78923;
+				}
+				.fenshu2{
+					background: #e7cb23;
+				}
+				.fenshu3{
+					background: #23e79b;
+				}
+				.fenshu4{
+					background: #1ab944;
+				}
+				.txt{
+					font-size: 14upx;
+				}
+			}
+					
+		}
+	}
+	.history-content{
+		padding-bottom: 100upx;
+		.title{
+			display: flex;
+			margin: 20upx 0;
+			text{
+				width:307upx;
+				height:37upx;
+				line-height: 37upx;
+				border: 1upx solid #69bb19;
+				font-size: 14upx;
+				color: #69bb19;
+				text-align: center;
+				&.cur{
+					color: #fff;
+					background: #69bb19;
+				}
+			}
+		}
+		.content{
+			.jilu{
+				.list{
+					display: flex;
+					margin-bottom: 20upx;
+					position: relative;
+					.line{
+						position: absolute;
+						left: 138upx;
+						top: 33upx;
+						width: 2upx;
+						height: 135upx;
+						background: #69bb19;
+					}
+					.time{
+						width: 100upx;
+						text-align: center;
+						.year{
+							font-size: 20upx;
+						}
+						.mounth{
+							font-size: 16upx;
+						}
+					}
+					.yuan{
+						width: 20upx;
+						height: 20upx;
+						background: #69bb19;
+						border-radius: 50%;
+						margin: 15upx 50upx 0 30upx;
+					}
+					.msg{
+						.txt{
+							font-size: 17upx;
+							color: #69BB19;
+							margin-bottom: 10upx;
+						}
+						.img{
+							display: flex;
+							justify-content: space-between;
+							image{
+								width:105upx;
+								height:99upx;
+								margin-right: 10upx;
+							}
+						}
+					}
+				}
+				.list:nth-last-child(1){
+					.line{
+						display: none;
+					}
+				}
+			}
+			.baogao{
+				width:502upx;
+				height:708upx;
+				margin: 0 auto;
+				.swiper{
+					height: 700upx;
+					.swiper-item {
+						width: 100%;
+						height: 100%;
+						background: #000;
+						color: #fff;
+						image{
+							width: 100%;
+							height: 100%;
+						}
+					}
+				}
+			}
+		}
+	}
+}

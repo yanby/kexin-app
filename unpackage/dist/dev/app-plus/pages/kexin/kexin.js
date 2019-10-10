@@ -1,0 +1,2 @@
+setCssToHead(["@charset \x22UTF-8\x22;\n.",[1],"kexin { padding: ",[0,100]," ",[0,90],"; }\n.",[1],"kexin .",[1],"kexin-logo { text-align: center; margin-bottom: ",[0,100],"; }\n.",[1],"kexin .",[1],"kexin-logo wx-image { width: ",[0,276],"; height: ",[0,101],"; }\n.",[1],"kexin .",[1],"content wx-view { font-size: ",[0,16],"; text-indent: 2em; margin-bottom: ",[0,20],"; line-height: ",[0,30],"; }\n",],undefined,{path:"./pages/kexin/kexin.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/kexin/kexin.wxml') } }));

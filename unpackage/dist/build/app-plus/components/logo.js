@@ -1,0 +1,2 @@
+setCssToHead(["@charset \x22UTF-8\x22;\n.",[1],"logo { width: 100%; padding: ",[0,10]," 0; }\n.",[1],"logo wx-image { width: 100%; height: ",[0,76],"; }\n",],undefined,{path:"./components/logo.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./components/logo.wxml') } }));

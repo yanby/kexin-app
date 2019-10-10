@@ -1,0 +1,234 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.history {
+  padding: 0 77rpx;
+}
+.history .history-msg {
+    padding-top: 20rpx;
+}
+.history .history-msg .list-wrap {
+      width: 538px;
+      height: 122px;
+      margin: 0 auto;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      padding: 20rpx;
+      -webkit-box-shadow: 0px 0px 8px 6px #f1f8ea;
+              box-shadow: 0px 0px 8px 6px #f1f8ea;
+}
+.history .history-msg .list-wrap .list-left .img {
+        width: 96rpx;
+        height: 67rpx;
+        margin-bottom: 10rpx;
+}
+.history .history-msg .list-wrap .list-left .img image {
+          width: 100%;
+          height: 100%;
+}
+.history .history-msg .list-wrap .list-left .txt {
+        width: 89px;
+        height: 27px;
+        line-height: 27rpx;
+        text-align: center;
+        background: #f1f1f1;
+        font-size: 14rpx;
+        color: #4C4C4C;
+}
+.history .history-msg .list-wrap .list-center {
+        margin: 0 10rpx 0 35rpx;
+}
+.history .history-msg .list-wrap .list-center .name {
+          font-size: 18rpx;
+}
+.history .history-msg .list-wrap .list-center .pici {
+          font-size: 14rpx;
+          padding: 10rpx 0 30rpx;
+}
+.history .history-msg .list-wrap .list-center .time {
+          font-size: 14rpx;
+          color: #7D8787;
+}
+.history .history-msg .list-wrap .list-xinyu {
+        width: 150rpx;
+}
+.history .history-msg .list-wrap .list-xinyu .xinyu-youji, .history .history-msg .list-wrap .list-xinyu .xinyu-lvse {
+          margin-top: 30rpx;
+}
+.history .history-msg .list-wrap .list-xinyu .xinyu-youji view, .history .history-msg .list-wrap .list-xinyu .xinyu-lvse view {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-justify-content: space-around;
+                -ms-flex-pack: distribute;
+                    justify-content: space-around;
+}
+.history .history-msg .list-wrap .list-xinyu .xinyu-youji view text, .history .history-msg .list-wrap .list-xinyu .xinyu-lvse view text {
+              display: inline-block;
+              width: 25rpx;
+              height: 28rpx;
+              background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAcCAYAAACUJBTQAAAACXBIWXMAAAsSAAALEgHS3X78AAAExElEQVRIia2WT2gUVxzHv7/ZyWQzOThFbEshuKX24MVdwYOQw05EstZkyVZaEQu6gicPGgtCL9VNvQTaw7YHL41lK7QUW+ImNdGNJU4ogtCAs1LoobVEhFIp4oSSqU4m88rvzTOZNY1/ig8m75eZ936f9/v+fu+9JSEE/k/7eHZ9Jq2LTFqP7LQeIa0L1UsbCdvVn8f/kR9ey6X1qNyhi1Ja1zYCEQCNP80kbEfZFoAS288E2Te13TbIrxgw8wj9eSCqA5rDDk9s+2turXk//pn2ANhPhBQaey0Dfq2NzAEI3Abh0MjO32rJMaevb+DorLQuVB/L9e6mvysPQuKI8mtCui8dyRlkOuBxAsdHC9NVfn/gyhYGlw3yOQcDHbqmZizLdRuIZHQPQv4/av4nJDt5MgYI8OByY9d5t9joz7TFkh1U4CZCfwiIHECb+3D7atliCLxVkDcmPlsBEOxru854PZfLFYPMUxCYB2EIArVzvTfXzMUKhCyOrqWEX7n4tWWQ7xrwYZCfU33dgJ83yP+Uk98onPf2TO1gyUosmQE/Y5Cf51x0JEr3xLZ79PnPlsN2SyQBzAoENoKw9dbuo97myWEXAlkQ5nn1AKxCY2+1RTICj3EQ+h4QuYA2yOOUXNw7y5C28WsZg8xjLMfdvv1u18QIO2PAcQiUQWAJ46YkGy1Mr5LsfefVKu+R09c3VNI6ZQGtviwXjc/WdDwsGbSQUVJdNcgfutN3uLJ5crhkwL9gkN804NvX3jrjPXK6Z2qHlPWb3uvu4SubWO77aT1qKumyaT3qkemnCzctiNTBEO3VhWKvFwizEsC8zYCuiRErEGYtgNkMhNkC4LYoTCeA6Si5y4EwWabSPyHVuLpObLvnxEUuUiVEKe5rND6bCURnnkFyojAHA5jrAmGWmrs/agH0XC5n+NuiMKuJsWNndv4xp0AzeLR7IFI2RKopBrbOQaQGQ7QjEJ31xOq+vNV3dJX+gTCrgTDnA5jVYqOfARv53YErWzKBMPMPQk2eDrqC5AC40o5SNjQ0Fwe6PeWIk94C2Dw5LI8bIz5uDslqInBljo0Wpp19U9trqiLrSUgWiF/IqKIVhwvFXiexj3IG+WUDEgwJINRlCcvkolxs9NttZB6EwNC53pteEsJ/LfruVxuUgiqGHLQlC7QEHQ9tgxb4JFindj07roDgSQAhC4G3FajG+2e0MF15tLgk5Jh6Vlp85s2E1J6H4DsD1fvFkoy4a2LElhuUYHFEP+3+pN596YirpCsl3egqD+zsuMqLK955s6WKaOyGCKmdN6PT+f0UHyeD8m4hNCFQ4pxlJ0/WDTI5okNXd9Xc1RCOJIILTUJy9O3vLFOOpYofuYjBkNpPqV0v75a7fftrXRMjmYRkHFHLffO4XAzKQcPVxPd5Fd2MWsQcR7RY7JYrfelinSOqqCLo+aXvA+dxwCqI2P+yI1P3hEZjN2wan63qeFiWhUAY47PtTv9hb61ZLRD66t6KTJrsLSUZ2xnQUlZJNx9SO1dYLVnizwThfABKruXbFE2+3eJfIfK4d8XAlqc6fhKEtX5dvLf+qbfe80PiEoY4YHpq1S+0afQFSnEJp+wX7Xy5yUvrrKjgbGSx/cIfIfAvs9twbmMFtmEAAAAASUVORK5CYII=) no-repeat;
+              background-size: 100% 100%;
+}
+.history .history-msg .list-wrap .list-xinyu .xinyu-lvse view text {
+          background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAcCAYAAACUJBTQAAAACXBIWXMAAAsSAAALEgHS3X78AAACm0lEQVRIibVWy3HiQBRsKO44A8jAZGARgdkIzEaw8m0uBqwLuhlHYJEBRLByBiIDHMGKCNhqVz/X80hQbG0xVaoRM5rXr/t9hs7xeMS/jlmejwAkADgPNfdPmFlfDDLLcxpLAUwADLS8A1AB2AOo9e7Hiuu9C40vADwAOADY8MlC2FxwlsA4CzLL86m84XjmexZCrb0byUTZ7N1GlYWQ2o+TILM8L+T9FsCUxmlYwDRw6z5/N+OSbe9ttYI4gMcshJWML2S8L6OPkm3fZuMsiIwR4GcWQqFM2ijYa8bHG1bMhpGZIc8au14EQH3nAF4F4GMyzkIonWR87k44T6aFwMtutMmNHYMmBm9ap0TDWZ6n0vtNwWYyjOVAh48ALJXJvv6qE8k016HKBTERmwcdZCKkbbFQxv0B8CFnyHTsmZD+mpIowAPLKvcN4zSJYrKSfJBDUAxtVF19aFVcyJtUcam0Z5lWuMMW9F9y0Bz9UI3Ukr42JhNtlvqw7wKe6uMVmsM8TwV4z3Ny9N4YGQiDXDoWOyfJnQP0LEZa35Kxkuag2ar9k7ml8K0tiOaXUWVMDJCqn9GRqX7TmR+O/doc7Ykm1G/qqAd5w4lktfhtJS3Pv4jRhokguRd2tvO0XPLwb1WzSTRSHSC6K6wLFypMK9a94jNRDT1nIbSCwDU6G1Yrc2szaLb/dxn/rG4CZiF8U8O3lbGyq00qgtxI+0SZczCPJeXGMfo24t5lt5/3xN5fNO/83eI6BdeTqHgbTBBdPnadlu69cpfWRADMzFd15wZAA0T53qDrWCYuywbqUSdlbgWRoWmUXUP3xwEyXFqGnTPeCiLDnkks1/6Sm/AsyDm5/md0nSxXGwSxtnI9MN6MT8vliPNVnuMRfwHgX5CjhPVtpwAAAABJRU5ErkJggg==) no-repeat;
+          background-size: 100% 100%;
+}
+.history .history-msg .list-wrap .list-right {
+        margin-left: 40rpx;
+        margin-top: 10rpx;
+}
+.history .history-msg .list-wrap .list-right .fenshu {
+          width: 56rpx;
+          height: 56rpx;
+          margin: 0 auto;
+          text-align: center;
+          line-height: 57rpx;
+          border-radius: 50%;
+          font-size: 26rpx;
+          color: #fff;
+          margin-bottom: 10rpx;
+}
+.history .history-msg .list-wrap .list-right .fenshu text {
+            font-size: 16rpx;
+            color: #fff;
+}
+.history .history-msg .list-wrap .list-right .fenshu1 {
+          background: #e78923;
+}
+.history .history-msg .list-wrap .list-right .fenshu2 {
+          background: #e7cb23;
+}
+.history .history-msg .list-wrap .list-right .fenshu3 {
+          background: #23e79b;
+}
+.history .history-msg .list-wrap .list-right .fenshu4 {
+          background: #1ab944;
+}
+.history .history-msg .list-wrap .list-right .txt {
+          font-size: 14rpx;
+}
+.history .history-content {
+    padding-bottom: 100rpx;
+}
+.history .history-content .title {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      margin: 20rpx 0;
+}
+.history .history-content .title text {
+        width: 307rpx;
+        height: 37rpx;
+        line-height: 37rpx;
+        border: 1rpx solid #69bb19;
+        font-size: 14rpx;
+        color: #69bb19;
+        text-align: center;
+}
+.history .history-content .title text.cur {
+          color: #fff;
+          background: #69bb19;
+}
+.history .history-content .content .jilu .list {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      margin-bottom: 20rpx;
+      position: relative;
+}
+.history .history-content .content .jilu .list.list:nth-last-child(1) .line {
+        display: none;
+}
+.history .history-content .content .jilu .list .line {
+        position: absolute;
+        left: 138rpx;
+        top: 33rpx;
+        width: 2rpx;
+        height: 135rpx;
+        background: #69bb19;
+}
+.history .history-content .content .jilu .list .time {
+        width: 100rpx;
+        text-align: center;
+}
+.history .history-content .content .jilu .list .time .year {
+          font-size: 20rpx;
+}
+.history .history-content .content .jilu .list .time .mounth {
+          font-size: 16rpx;
+}
+.history .history-content .content .jilu .list .yuan {
+        width: 20rpx;
+        height: 20rpx;
+        background: #69bb19;
+        border-radius: 50%;
+        margin: 15rpx 50rpx 0 30rpx;
+}
+.history .history-content .content .jilu .list .msg .txt {
+        font-size: 17rpx;
+        color: #69BB19;
+        margin-bottom: 10rpx;
+}
+.history .history-content .content .jilu .list .msg .img {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+}
+.history .history-content .content .jilu .list .msg .img image {
+          width: 105rpx;
+          height: 99rpx;
+          margin-right: 10rpx;
+}
+.history .history-content .content .baogao {
+      width: 502rpx;
+      height: 708rpx;
+      margin: 0 auto;
+}
+.history .history-content .content .baogao .swiper {
+        height: 700rpx;
+}
+.history .history-content .content .baogao .swiper .swiper-item {
+          width: 100%;
+          height: 100%;
+          background: #000;
+          color: #fff;
+}
+.history .history-content .content .baogao .swiper .swiper-item image {
+            width: 100%;
+            height: 100%;
+}
+

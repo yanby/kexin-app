@@ -1,0 +1,334 @@
+.detail{
+	background: #f7f7f7;
+	.detail-header{
+		background: #fff;
+		padding: 28upx 73upx;
+		margin-bottom: 10upx;
+		.header-title{
+			display: flex;
+			position: relative;
+			border-bottom: 2upx solid #eaeaea;
+			padding-bottom: 10upx;
+			.logo{
+				width: 30upx;
+				height: 30upx;
+				border-radius: 50%;
+				position: relative;
+				top: -10upx;
+				margin-right: 5upx;
+				image{
+					border-radius: 50%;
+					width: 100%;
+					height: 100%;
+				}
+				text{
+					position: absolute;
+					bottom: 0;
+					right: 0;
+					width: 15upx;
+					height: 16upx;
+					background: url(../../static/images/v.png) no-repeat;
+					background-size: 100% 100%;
+				}
+			}
+			.name{
+				font-size: 20upx;
+				margin-right: 10upx;
+			}
+			.biaoqian{
+				font-size: 14upx;
+				margin-left: 10upx;
+				padding: 0upx 20upx;
+				line-height: 30upx;
+				color: #FF6A43;
+				background: #fff5e5;
+				text-align: center;
+				border-radius: 10upx;
+			}
+			.address{
+				color: #A8A7A7;
+				font-size: 13upx;
+				position: absolute;
+				right: 0upx;
+				top: 5upx;	
+				text{
+					display: inline-block;
+					width: 16upx;
+					height: 20upx;
+					background: url(../../static/images/dizhi.png) no-repeat;
+					background-size: 100% 100%;
+					vertical-align: -5upx;
+					margin-right: 5upx;
+				}
+			}
+		}
+		.header-msg{
+			display: flex;
+			justify-content: space-between;
+			padding-top: 10upx;
+			.msg-img{
+				width: 240upx;
+				height: 300upx;
+				image{
+					width: 100%;
+					height: 100%;
+				}
+			}
+			.msg-txt{
+				width: 350upx;
+				.fenshu{
+					display: flex;
+					justify-content: space-around;
+					.youji{
+						margin-top: 20upx;
+						width: 116upx;
+						height: 137upx;
+						line-height: 107upx;
+						font-size: 40upx;
+						text-align: center;
+						color: #00C958;
+						background: url(../../static/images/youji.png) no-repeat;
+						background-size: 100% 100%;
+					}
+					.lvse{
+						margin-top: 20upx;
+						width: 116upx;
+						height: 137upx;
+						line-height: 107upx;
+						text-align: center;
+						font-size: 40upx;
+						color: #707070;	
+						background: url(../../static/images/lvse.png) no-repeat;
+						background-size: 100% 100%;
+					}
+				}
+				.icon{
+					padding: 20upx 0;
+					display: flex;
+					justify-content: space-around;
+					.icon1{
+						width: 21upx;
+						height: 16upx;
+						background: url(../../static/images/mianji.png) no-repeat;
+						background-size: 100% 100%;
+					}
+					.icon2{
+						width: 21upx;
+						height: 18upx;
+						background: url(../../static/images/pinglei.png) no-repeat;
+						background-size: 100% 100%;
+					}
+					.icon3{
+						width: 19upx;
+						height: 18upx;
+						background: url(../../static/images/zuowu.png) no-repeat;
+						background-size: 100% 100%;
+					}
+				}
+				.icon-txt{
+					font-size: 14upx;
+					display: flex;
+					padding-bottom: 10upx;
+					justify-content: space-around;
+					border-bottom: 1upx solid #eaeaea;
+					text{
+						color: #66CB33;
+						margin-left: 5upx;
+					}
+				}
+				.list{
+					display: flex;
+					font-size: 12upx;
+					color: #6B6B6B;
+					.list-msg{
+						width: 200upx;
+						padding: 10upx 0;
+						.icon1{
+							display: inline-block;
+							vertical-align: -5upx;
+							margin-right: 5upx;
+							width: 19upx;
+							height: 19upx;
+							margin-left: 10upx;
+							background: url(../../static/images/time.png) no-repeat;
+							background-size: 100% 100%;
+						}
+						.icon2{
+							display: inline-block;
+							vertical-align: -5upx;
+							margin-right: 5upx;
+							width: 20upx;
+							height: 16upx;
+							background: url(../../static/images/mu.png) no-repeat;
+							background-size: 100% 100%;
+						}
+						.icon3{
+							display: inline-block;
+							vertical-align: -5upx;
+							margin-right: 5upx;
+							width: 19upx;
+							height: 19upx;
+							margin-left: 10upx;
+							background: url(../../static/images/tel.png) no-repeat;
+							background-size: 100% 100%;
+						}
+						.icon4{
+							display: inline-block;
+							vertical-align: -5upx;
+							margin-right: 5upx;
+							width: 16upx;
+							height: 20upx;
+							background: url(../../static/images/dizhi.png) no-repeat;
+							background-size: 100% 100%;
+						}
+					}
+					.list-msg1{
+						width: 150upx;
+					}
+				}
+			}
+		}
+	}
+	.detail-content{
+		background: #fff;
+		padding: 28upx 73upx;
+		.content-title{
+			display: flex;
+			justify-content: space-between;
+			.title-left{
+				width:124upx;
+				height:31upx;
+				line-height: 31upx;
+				border: 1upx solid #eaeaea;
+				text-align: center;
+				color: #282828;
+				.picker{
+					width: 100%;
+					height: 100%;
+					font-size: 14upx;
+					.uni-input{
+						font-size: 14upx;
+					}
+				}
+			}
+			.title-right{
+				width:266upx;
+				height:31upx;
+				line-height: 31upx;
+				text-align: center;
+				color: #282828;
+				display: flex;
+				justify-content: space-between;
+				.picker{
+					width:124upx;
+					height:31upx;
+					font-size: 14upx;
+					border: 1upx solid #eaeaea;
+				}
+			}
+				
+		}
+		.content-msg{
+			padding-top: 20upx;
+			.list-wrap{
+				border-top: 1upx solid #eaeaea;
+				display: flex;
+				padding: 20upx 0;
+				.list-left{
+					.img{
+						width:96upx;
+						height:67upx;
+						margin-bottom: 10upx;
+						image{
+							width: 100%;
+							height: 100%;
+						}
+					}
+					.txt{
+						width:89px;
+						height:27px;
+						line-height: 27upx;
+						text-align: center;
+						background: #f1f1f1;
+						font-size: 14upx;
+						color: #4C4C4C;
+					}
+				}
+				.list-center{
+					margin: 0 35upx;
+					.name{
+						font-size: 18upx;
+					}
+					.pici{
+						font-size: 14upx;
+						padding: 10upx 0 30upx;
+					}
+					.time{
+						font-size: 14upx;
+						color: #7D8787;
+					}
+				}
+				.list-xinyu{
+					width: 150upx;
+					.xinyu-youji,.xinyu-lvse{
+						margin-top: 30upx;
+						view{
+							display: flex;
+							justify-content: space-around;
+							text{
+								display: inline-block;
+								width: 25upx;
+								height: 28upx;
+								background: url(../../static/images/yezi-youji.png) no-repeat;
+								background-size: 100% 100%;
+							}
+						}
+					}
+					.xinyu-lvse{
+						view{
+							text{
+								background: url(../../static/images/yezi-lvse.png) no-repeat;
+								background-size: 100% 100%;
+							}
+						}
+					}
+				}
+				.list-right{
+					margin-left: 40upx;
+					margin-top: 10upx;
+					.fenshu{
+						width:56upx;
+						height:56upx;
+						margin: 0 auto;
+						
+						text-align: center;
+						line-height: 57upx;
+						border-radius: 50%;
+						font-size: 26upx;
+						color: #fff;
+						margin-bottom: 10upx;
+						text{
+							font-size: 16upx;
+							color: #fff;
+						}
+					}
+					.fenshu1{
+						background: #e78923;
+					}
+					.fenshu2{
+						background: #e7cb23;
+					}
+					.fenshu3{
+						background: #23e79b;
+					}
+					.fenshu4{
+						background: #1ab944;
+					}
+					.txt{
+						font-size: 14upx;
+					}
+				}
+			}
+		}
+	}
+}

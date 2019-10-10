@@ -1,0 +1,1 @@
+<view class="merchant"><view class="merchant-logo"><image src="{{logo}}"></image></view><view class="content"><rich-text nodes="{{content}}"></rich-text></view></view>

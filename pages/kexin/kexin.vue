@@ -1,0 +1,49 @@
+<template>
+    <view class="kexin">
+		<view class="kexin-logo"><image src="/static/images/kexin-logo.png" mode=""></image></view>
+		<view class="content">
+			<view>可信农场是以数据技术为核心，联结农业生产者及渠道采购者的农产品信用及数据服务平台。</view>
+			<view>可信农场致力于通过一套基于大数据及算法技术的全新的农产品信用评价体系，及专业的农业大数据产品，提升农户生产效率和产品安全，促进农产品供应链生态良性发展，推动中国农业数字化进程，助力中国食品安全问题的解决。</view>
+			<view>可信农场由北京乐平公益基金会孵化，日本守护大地协会为可信农场提供农业生产技术支持。</view>
+		</view>	                        
+	</view>
+</template>
+
+<script>
+	import { request } from '../../static/js/request.js'
+	export default {
+	    data() {
+	       return {
+	       	arr: []
+	       }
+	    },
+		onShow(){
+			uni.setStorageSync("number",1);
+		},
+	    methods: {
+	     
+	    }
+	}
+</script>
+
+<style lang='scss'>
+	.kexin{
+		padding: 100upx 90upx;
+		.kexin-logo{
+			text-align: center;
+			margin-bottom: 100upx;
+			image{
+				width: 276upx;
+				height: 101upx;
+			}
+		}
+		.content{
+			view{
+				font-size: 16upx;
+				text-indent: 2em;
+				margin-bottom: 20upx;
+				line-height: 30upx;
+			}
+		}
+	}
+</style>
